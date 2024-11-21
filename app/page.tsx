@@ -19,12 +19,13 @@ export default function Home() {
           px-48
           border
           border-black
-          italic"
+          italic
+          border-print"
         >
           L&apos;EPCL se réserve le droit de demander un certificat médical.
         </h3>
         {/* "Elève" section */}
-        <div className="mt-16 border border-black">
+        <div className="border-print mt-16 border border-black">
           <div className="px-2 bg-gray-300">
             <span className="section-title">Elève</span>
           </div>
@@ -38,7 +39,7 @@ export default function Home() {
           </div>
         </div>
         {/* "Absence" section */}
-        <div className="mt-8 border border-black">
+        <div className="border-print mt-8 border border-black">
           <div className="px-2 bg-gray-300">
             <span className="section-title">Absence</span>
           </div>
@@ -58,7 +59,7 @@ export default function Home() {
           </div>
         </div>
         {/* "Tests manqués" section */}
-        <div className="mt-8 border border-black">
+        <div className="border-print mt-8 border border-black">
           <div className="px-2 bg-gray-300">
             <span className="section-title">Test(s) manqué(s) dans la/les branche(s) suivante(s)</span>
           </div>
@@ -67,7 +68,7 @@ export default function Home() {
           </div>
         </div>
         {/* "Motif de l'absence" section */}
-        <div className="mt-8 border border-black">
+        <div className="border-print mt-8 border border-black">
           <div className="px-2 bg-gray-300">
             <span className="section-title">Motif de l&apos;absence <span className="italic text-xs">(obligatoire)</span></span>
           </div>
@@ -78,7 +79,7 @@ export default function Home() {
         {/* "Validations" section */}
         <div className="mt-4">
           <h4 className="font-semibold underline validations-title">Validations</h4>
-          <div className="mt-4 border border-black">
+          <div className="border-print mt-4 border border-black">
             <div className="px-2 bg-gray-300">
               <span className="section-title">Responsable de formation</span>
             </div>
