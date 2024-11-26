@@ -2,21 +2,20 @@ import EPCLVaudSignature from "./components/EPCLVaudSignature";
 
 export default function Home() {
   return (
-    <div>
-      <div className="px-24 flex items-end justify-between">
+    <div className="mb-12">
+      <div className="px-12 md:px-24 pt-12 md:pt-0 flex items-end justify-between">
           <EPCLVaudSignature />
-        <span className="text-white bg-gray-400 font-semibold text-7xl pt-48 px-2">S16</span>
+        <span className="hidden md:block text-white bg-gray-400 font-semibold text-7xl pt-48 px-2">S16</span>
       </div>
-      <div className="flex flex-col items-center mt-12 mb-4">
-        <h3 id="main-title" className="font-bold text-xl">Justification d&apos;absence à transmettre via le formulaire en ligne</h3>
-        <h4 id="main-description">pour élèves <span className="font-semibold underline">AVEC</span> contrat d&apos;apprentissage</h4>
+      <div className="flex flex-col items-center mt-12 mb-4 px-8">
+        <h3 id="main-title" className="font-bold text-xl text-center">Justification d&apos;absence à transmettre via le formulaire en ligne</h3>
+        <h4 id="main-description" className="text-center">pour élèves <span className="font-semibold underline">AVEC</span> contrat d&apos;apprentissage</h4>
       </div>
-      <div className="flex flex-col w-fit mx-auto">
+      <div className="all-forms flex flex-col max-w-fit mx-auto px-8">
         <h3 id="EPCL-reserves-right" 
         className="
           text-center
           text-lg font-bold
-          px-48
           border
           border-black
           italic

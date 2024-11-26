@@ -30,4 +30,8 @@
   .border-print {
     border: 2px solid black;
   }
+
+  .all-forms {
+    padding: 0;
+  }
 }
